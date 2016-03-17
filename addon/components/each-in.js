@@ -1,10 +1,8 @@
 import Ember from 'ember';
-import Component from 'ember-component';
-import get from 'ember-metal/get';
-import computed from 'ember-computed';
 import layout from '../templates/components/each-in';
 
 const { typeOf } = Ember;
+const { Component, get, computed } = Ember;
 
 const EachInComponent = Component.extend({
   layout,
